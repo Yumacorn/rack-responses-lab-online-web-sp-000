@@ -2,9 +2,11 @@ class Application
 
   def call(env)
 
-
-  resp.write = "Good Morning!"
-  resp.write = "Good Afternoon!"
+  if
+    resp.write = "Good Morning!"
+  else
+    resp.write = "Good Afternoon!"
+  end
   resp.finish
   end
 
