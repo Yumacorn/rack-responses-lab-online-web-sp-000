@@ -3,7 +3,7 @@ require 'rack'
 class Application
   def call(env)
     resp = Rack::Response.new
-    raise Time.now.inspect.class
+    raise Time.now.classinspect
     if
       resp.write "Good Morning!"
     else
